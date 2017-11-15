@@ -37,9 +37,19 @@ syn match viperDecoratorName "\(payable\|constant\|internal\|public\)$" display 
 syn match viperComment "#.*$"
 
 "Literals
-syn match viperNumber "\<\d\+\>" display
-syn match viperAddress "\<0x\x\+\>" display
-syn match viperDecimal "\<\d\+\.\d\+\>" display 
+syn match viperNumber "\<\d\>" display
+syn match viperNumber "\<[1-9]\d\+\>" display
+syn match viperNumberError "\<0\d\+\>" display
+syn match viperAddress "\<0x\x\{40}\>" display
+syn match viperAddressError "\<0x\x\{0,39}\>" display
+syn match viperAddressError "\<0x\x\{41,}\>" display
+syn match viperAddressError "\<0x\x*\X\+.\+\>" display
+syn match viperDecimal "\<\d*\.\d\+\>" display 
+"String (String inside a string doesn't work properly!)
+syn match viperString +".\{-}"+ display
+syn match viperString +'.\{-}'+ display
+syn match viperStringError +".\{-}'+ display
+syn match viperStringError +'.\{-}"+ display
 
 "Highlighting
 hi link viperStatement Statement
@@ -53,6 +63,9 @@ hi link viperComment Comment
 hi link viperTypes Type
 hi link viperNumber Number
 hi link viperAddress Number
+hi link viperAddressError Error
 hi link viperDecimal Float
 hi link viperFunction Function
 hi link viperBuiltin Function
+hi link viperStringError Error
+hi link viperString String
