@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:             Viper (https://github.com/ethereum/viper)
+" Language:             Viper (https://github.com/ethereum/vyper)
 " Author:               chgue (https://github.com/chgue)
 " URL:                  https://github.com/chgue/vim-viper
 " Last Change:          2017-11-14
@@ -16,11 +16,11 @@ syn keyword viperStatement def nextgroup=viperFunction skipwhite
 syn keyword viperRepeat for while
 syn keyword viperConditional if else
 syn keyword viperOperator and in not or
-syn keyword viperBoolean true false True False
+syn keyword viperBoolean True False
 syn keyword viperStatement return public
-syn keyword viperTypes address bool decimal num bytes32 num256 signed256
-syn keyword viperTypes wei_value currency_value currency1_value currency2_value timestamp timedelta
-syn keyword viperBuiltin floor as_unitless_number as_num128 as_num256 as_bytes32 slice len concat sha3 method_id keccack256 ecrecover ecadd ecmul extract32 bytes_to_num as_wei_value raw_call RLPList blockhash bitwise_and bitwise_or bitwise_xor bitwise_not num256_add num256_sub num256_mul num256_div num256_exp num256_mod num256_addmod num256_mulmod num256_gt num256_ge num256_lt num256_le shift create_with_code_of min max
+syn keyword viperTypes address bool decimal num bytes32 int128 uint256 bytes
+syn keyword viperTypes wei_value timestamp timedelta
+syn keyword viperBuiltin as_unitless_number as_wei_value bitwise_and bitwise_not bitwise_or bitwise_xor blockhash ceil concat convert create_with_code_of ecadd ecmul ecrecover extract32 floor keccak256 len max method_id min raw_call RLPList sha3 shift slice uint256_addmod uint256_mulmod
 syn keyword viperBuiltin self
 
 "Functions
