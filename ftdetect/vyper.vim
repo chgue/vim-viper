@@ -1,2 +1,2 @@
  
-au BufRead,BufNewFile *.vy, *.v.py set filetype=vyper
+au BufRead,BufNewFile *.vy set filetype=vyper

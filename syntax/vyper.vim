@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:             Viper (https://github.com/ethereum/vyper)
+" Language:             Vyper (https://github.com/ethereum/vyper)
 " Author:               chgue (https://github.com/chgue)
 " URL:                  https://github.com/chgue/vim-viper
 " Last Change:          2017-11-14
