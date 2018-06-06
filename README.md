@@ -1,5 +1,5 @@
 # vim-viper
-Vim syntax highlighting for the experimental programming language [Viper](https://github.com/ethereum/viper).
+Vim syntax highlighting for the experimental programming language [Vyper](https://github.com/ethereum/vyper).
 
 Work in progess.
 
