@@ -5,7 +5,11 @@ Work in progess.
 
 Currently uses *.vy.
 
-#Installation
+# Quick Install
+```
+curl https://raw.githubusercontent.com/jacqueswww/vim-vyper/master/install.sh | sh
+```
+# Installation
 
 Drop the appropriate files into:
 
@@ -15,3 +19,4 @@ Drop the appropriate files into:
 ```
 
 Note: Folders might have to be created.
+
