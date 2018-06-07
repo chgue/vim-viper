@@ -11,7 +11,7 @@ if exists("b:current_syntax")
 
 "Keywords
 syn keyword viperStatement return
-syn keyword viperStatement assert version
+syn keyword viperStatement assert @version
 syn keyword viperStatement contract def nextgroup=viperFunction skipwhite
 syn keyword viperRepeat for while
 syn keyword viperConditional if else
