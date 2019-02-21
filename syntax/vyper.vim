@@ -18,8 +18,8 @@ syn keyword viperRepeat for while
 syn keyword viperConditional if else
 syn keyword viperOperator and in not or
 syn keyword viperBoolean True False
-syn keyword viperStatement return public private
-syn keyword viperTypes address bool decimal num bytes32 int128 uint256 bytes
+syn keyword viperStatement return public private nonreentrant
+syn keyword viperTypes address bool decimal num bytes32 int128 uint256 bytes string map
 syn keyword viperTypes wei_value timestamp timedelta
 syn keyword viperBuiltin as_unitless_number as_wei_value bitwise_and bitwise_not bitwise_or bitwise_xor blockhash ceil concat convert create_with_code_of ecadd ecmul ecrecover extract32 floor keccak256 len max method_id min raw_call RLPList sha3 shift slice uint256_addmod uint256_mulmod
 syn keyword viperBuiltin self
