@@ -66,7 +66,7 @@ hi link viperStatement Statement
 hi link viperConditional Conditional
 hi link viperRepeat Repeat
 hi link viperOperator Operator
-hi link viperBooleani Boolean
+hi link viperBoolean Boolean
 hi link viperDecorator Define
 hi link viperDecoratorName Function
 hi link viperComment Comment
