@@ -2,7 +2,7 @@
 " Language:             Vyper (https://github.com/ethereum/vyper)
 " Author:               chgue (https://github.com/chgue)
 " URL:                  https://github.com/chgue/vim-viper
-" Last Change:          2018-02-21
+" Last Change:          2019-06-06
 " Filenames:            *.vy
 
 if exists("b:current_syntax")
